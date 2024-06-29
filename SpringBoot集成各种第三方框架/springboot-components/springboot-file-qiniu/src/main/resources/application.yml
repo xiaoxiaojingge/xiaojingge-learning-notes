@@ -1,0 +1,11 @@
+#七牛云配置
+qiniu:
+  #自己账户的ak sk
+  accessKey: xxx
+  secretKey: xxx
+  #存储空间名
+  bucket: xxx
+  # 自己的存储空间域名
+  cdnProfile: xxxx
+  #采用的协议 http:// 还是 https://  个人此空间由于没配域名 采用的是http协议  http://qa7oc48w0.bkt.clouddn.com/logo
+  protocol: http://

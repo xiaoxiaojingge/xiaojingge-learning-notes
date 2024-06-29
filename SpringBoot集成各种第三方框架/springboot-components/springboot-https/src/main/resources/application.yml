@@ -1,0 +1,9 @@
+server:
+  ssl:
+    #下载的证书文件（tomcat类型后 解压的）
+    key-store: classpath:xxxxxx.pfx
+    # 固定 不要谢盖
+    key-store-type: PKCS12
+    #下载的证书文件（tomcat类型后 解压的 txt文件中的内容）
+    key-store-password: xxxxx
+  port: 443

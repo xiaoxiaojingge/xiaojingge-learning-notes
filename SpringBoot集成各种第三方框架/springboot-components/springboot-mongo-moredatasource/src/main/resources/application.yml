@@ -1,0 +1,26 @@
+spring:
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+  # 服务模块
+  devtools:
+    restart:
+      # 热部署开关
+      enabled: true
+  data:
+    mongodb:
+      #mongodb://账户:密码@ip:端口/数据库名    此链接方式为链接每一个数据的用户和密码
+
+      # 统一到admin 库认证方式    mongodb://账户:密码@ip:端口/数据库名?authSource=admin&authMechanism=SCRAM-SHA-1
+
+      #若是使用副本集    mongodb://账户:密码@ip:端口/数据库名?replicaSet=副本集名&authSource=admin&authMechanism=SCRAM-SHA-1
+
+      #为什么使用副本集  因为目前mongodb 事务当前仅在 副本集或者分片中才能使用 （分片暂未了解 我这是在一台服务器上搭建了一个副本集 用以支持事务）
+      one:
+        uri: mongodb://xxxx:xxxxx@xxxxx:27017/one?replicaSet=lei&authSource=admin&authMechanism=SCRAM-SHA-1
+      two:
+        uri: mongodb://xxxx:xxxxx@xxxxx:27017/two?replicaSet=lei&authSource=admin&authMechanism=SCRAM-SHA-1
+      three:
+        uri: mongodb://xxxx:xxxxx@xxxxx:27017/three?replicaSet=lei&authSource=admin&authMechanism=SCRAM-SHA-1
+server:
+  port: 8099

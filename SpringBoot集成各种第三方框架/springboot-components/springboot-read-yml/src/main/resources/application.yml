@@ -1,0 +1,45 @@
+#自定义的配置
+leilei:
+  name: leilei
+  age: 22
+  sex: true
+  #女朋友们 集合
+  girlfriends:
+    - name: luci
+      age: 21
+      cup: C
+    - name: meimei
+      age: 22
+      cup: D
+    - name: keke
+      age: 21
+      cup: A
+    - name: panghu
+      age: 22
+      cup: D
+  hobbys: baskitball,football,girl
+  zs:
+    1:
+      aa: 111111
+      bb: 222222
+    2:
+      aa: 1111
+  family:
+    father: lzs
+    mother: hjh
+    girlfriend: hr
+    sister: lh
+    grandMother: zxq
+# 项目信息 pom.xml中信息
+myapplication:
+  groupId: @project.groupId@
+  artifactId: @project.artifactId@
+  version: @project.version@
+  name: @project.name@
+  description: @project.description@
+
+test:
+  zs:
+    v3:
+      aaa: 1111
+
