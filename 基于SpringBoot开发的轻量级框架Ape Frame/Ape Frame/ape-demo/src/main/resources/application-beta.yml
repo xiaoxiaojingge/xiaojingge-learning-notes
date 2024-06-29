@@ -79,9 +79,9 @@ xxl:
       logretentiondays: 30
 
 aliyun:
-   oss:
-    
-    
+  oss:
+    accessKeyId:
+    accessKeySecret:
     bucketName: upload-test-test-yhy
     endpoint: oss-cn-beijing.aliyuncs.com
 ape:

@@ -58,8 +58,7 @@ logging:
     com:
       jingdianjichi:
         home:
-          feign:
-            DEBUG
+          feign: DEBUG
 log:
   aspect:
     enable: true
@@ -68,8 +67,8 @@ guava:
     switch: true
 aliyun:
   oss:
-    
-    
+    accessKeyId:
+    accessKeySecret:
     bucketName: upload-test-test-yhy
     endpoint: oss-cn-beijing.aliyuncs.com
 feign:
