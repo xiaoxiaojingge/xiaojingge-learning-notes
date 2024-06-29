@@ -2,9 +2,9 @@
 aliyun:
   sms:
     # 阿里云应用ak
-    
+    accessKeyId: xxxxxxxxxxxxxx
     # 阿里云应用sk
-    
+    accessKeySecret: xxxxxxxxx
     # 阿里云短信所用模板
     templateCode: xxxxxxxxxx
     # 阿里云短信所用签名
