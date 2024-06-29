@@ -60,9 +60,3 @@ log:
 guava:
   cache:
     switch: true
-aliyun:
-  oss:
-    accessKeyId:
-    accessKeySecret:
-    bucketName: upload-test-test-yhy
-    endpoint: oss-cn-beijing.aliyuncs.com

@@ -86,10 +86,3 @@ ape:
   smtpPwd: xxxxxxxxxxx
   senderName: xxxxxxx@163.com
   smtpSslEnable: false
-
-aliyun:
-  oss:
-    
-    
-    bucketName: upload-test-test-yhy
-    endpoint: oss-cn-beijing.aliyuncs.com
